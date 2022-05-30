@@ -24,6 +24,6 @@ promise
     .then((message3) => {
         console.log(message3);
     })
-    .catch((error) => {                             // 실패(reject)한 경우 실행
+    .catch((error) => {                            // 실패(reject)한 경우 실행
         console.log(error);
     });
